@@ -7,5 +7,7 @@ namespace accessreader.Models
 {
     public class UserClass
 {
+        public string User_name { set; get; }
+        public string Password { set; get; }
 }
 }
