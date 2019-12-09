@@ -9,5 +9,6 @@ namespace accessreader.Models
 {
         public string User_name { set; get; }
         public string Password { set; get; }
+        public int Id { set; get; }
 }
 }
