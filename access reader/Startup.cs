@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using accessreader.Models;
 
 namespace access_reader
 {
@@ -33,6 +35,9 @@ namespace access_reader
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<accessreaderContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("accessreaderContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
