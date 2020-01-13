@@ -11805,11 +11805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dor Azriel\\source\\repos\\reader12\\reader12\\reader12.csproj",
+      "projectUniqueName": "C:\\Users\\Dor Azriel\\Desktop\\פרוייקט\\reader12\\reader12.csproj",
       "projectName": "reader12",
-      "projectPath": "C:\\Users\\Dor Azriel\\source\\repos\\reader12\\reader12\\reader12.csproj",
+      "projectPath": "C:\\Users\\Dor Azriel\\Desktop\\פרוייקט\\reader12\\reader12.csproj",
       "packagesPath": "C:\\Users\\Dor Azriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dor Azriel\\source\\repos\\reader12\\reader12\\obj\\",
+      "outputPath": "C:\\Users\\Dor Azriel\\Desktop\\פרוייקט\\reader12\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
